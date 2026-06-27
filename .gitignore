@@ -1,0 +1,23 @@
+# Промежуточные артефакты сборки (плейн/core/obf). Публикуемый moonloader/saes_callout.lua
+# НЕ игнорируется — он коммитится в main и раздаётся автообновлением.
+dist/
+
+# Обфускатор вендорится локально (копия ../objmapper/build/Prometheus), в git не держим —
+# тяжёлый и общий с objmapper. Build-скрипты (split/assemble/build.ps1/конфиг/доку) коммитим.
+build/Prometheus/
+
+# Логи / временное
+*.log
+*.tmp
+
+# Рантайм-конфиги MoonLoader (генерируются игрой)
+moonloader/config/
+*_settings.json
+*_presets.json
+saes_callout.ini
+
+# ОС / редактор
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

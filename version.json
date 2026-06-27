@@ -1,7 +1,7 @@
 {
-  "latest": "2.0.2",
-  "min_supported": "2.0.2",
+  "latest": "2.0.3",
+  "min_supported": "2.0.3",
   "url": "https://raw.githubusercontent.com/ambnuf14-max/saes-ingame-callout/main/moonloader/saes_callout.lua",
-  "changelog": "Пуш оповещения. Список активных каллаутов. Правки UI",
+  "changelog": "v2.0.3 — обязательное обновление.\n- Переход на защищённую сборку скрипта.\n- Единый чат-префикс [SAES CALLOUT].\n- Мелкие правки стабильности автообновления.",
   "repo": "https://github.com/ambnuf14-max/saes-ingame-callout"
 }
