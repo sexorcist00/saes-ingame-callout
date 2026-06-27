@@ -1,7 +1,7 @@
 {
-  "latest": "2.0.3",
+  "latest": "2.0.4",
   "min_supported": "2.0.3",
-  "url": "https://raw.githubusercontent.com/ambnuf14-max/saes-ingame-callout/main/moonloader/saes_callout.lua",
-  "changelog": "v2.0.3 — обязательное обновление.\n- Переход на защищённую сборку скрипта.\n- Единый чат-префикс [SAES CALLOUT].\n- Мелкие правки стабильности автообновления.",
-  "repo": "https://github.com/ambnuf14-max/saes-ingame-callout"
+  "url": "https://raw.githubusercontent.com/sexorcist00/saes-ingame-callout/main/moonloader/saes_callout.lua",
+  "changelog": "v2.0.4 — обновление инфраструктуры.\n- Переезд раздачи на новый адрес репозитория.\n- Функционал без изменений.",
+  "repo": "https://github.com/sexorcist00/saes-ingame-callout"
 }

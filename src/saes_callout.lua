@@ -23,7 +23,7 @@
 -- файл по подстроке 'SAES Callout System', а Prometheus зашифровал бы её в core.
 script_name("SAES Callout System")
 script_author("SAES_sexorcist")
-script_version("2.0.3")
+script_version("2.0.4")
 
 -- HTTP-воркер для effil.thread: чистая функция без апвелью. effil переносит её в
 -- отдельный OS-поток через string.dump; обфускация добавила бы апвелью на дешифратор
@@ -54,7 +54,7 @@ end
 
 -- Версия для рантайма (чат/проверка обновлений). ДОЛЖНА совпадать со script_version
 -- в плейн-блоке выше — build/split.py проверяет это и падает при расхождении.
-local VERSION = "2.0.3"
+local VERSION = "2.0.4"
 
 -- ═══════════════════════════════════════════════════════════
 --  ЗАВИСИМОСТИ
@@ -111,7 +111,7 @@ local CFG = {
   W = 520,
   H = 620,
   -- Публичный репозиторий раздачи скрипта (для проверки версии и автообновления)
-  gh_owner  = "ambnuf14-max",
+  gh_owner  = "sexorcist00",
   gh_repo   = "saes-ingame-callout",
   gh_branch = "main",
 }
